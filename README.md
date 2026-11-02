@@ -58,16 +58,16 @@ Expected URLs after deployment:
 
 The same form handles creation and editing. `editingId` is empty for a new task and stores the selected task's ID while editing. Completing a task changes its database value, not just its appearance.
 
-## Partner contribution — pending
+## Partner contribution — awaiting partner merge
 
-The partner must fork this repository, make a branch, and add `contribution.html` and `contribution.json` through a Pull Request from their own dedicated course account. Those files are intentionally absent from this initial individual implementation.
+The partner must fork this repository, make a branch, and add `contribution.html` and `contribution.json` through a Pull Request from their own dedicated course account. Eyüp's contribution files have been merged into this repository.
 
 The HTML page must fetch `contribution.json` when **Show Contributor** is clicked and display `contributorStudentId` inside `#contributor-student-id`. It must have a **Team Contribution** heading, a button with ID `load-contributor`, and a link back to `index.html`. The JSON must contain the PR author's student ID, not my ID.
 
-- Incoming partner PR: pending.
-- My outgoing PR to the partner's repository: pending.
+- Incoming partner PR: https://github.com/vistula-team-project-72546/vistula-task-manager/pull/1 — merged.
+- My outgoing PR to the partner's repository: https://github.com/EyupEnsarDemirel74062/Second-Assignment/pull/1 — open; awaiting the repository owner's review and merge.
 
-Replace these entries with the links after both PRs have been reviewed and merged. The assignment is not complete until both contributions are merged and the deployed application, contributor page and JSON work publicly.
+The incoming PR is merged; the outgoing PR is awaiting Eyüp's review and merge. The assignment is not complete until both contributions are merged and the deployed application, contributor page and JSON work publicly.
 
 ## Manual checks before submission
 
@@ -80,3 +80,4 @@ Replace these entries with the links after both PRs have been reviewed and merge
 7. Check the partner page, its JSON and both merged PR links.
 
 Submit only the working application's GitHub Pages URL on Platon.
+
