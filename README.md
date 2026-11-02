@@ -58,16 +58,16 @@ Expected URLs after deployment:
 
 The same form handles creation and editing. `editingId` is empty for a new task and stores the selected task's ID while editing. Completing a task changes its database value, not just its appearance.
 
-## Partner contribution — awaiting partner merge
+## Partner contribution — both PRs merged
 
 The partner must fork this repository, make a branch, and add `contribution.html` and `contribution.json` through a Pull Request from their own dedicated course account. Eyüp's contribution files have been merged into this repository.
 
 The HTML page must fetch `contribution.json` when **Show Contributor** is clicked and display `contributorStudentId` inside `#contributor-student-id`. It must have a **Team Contribution** heading, a button with ID `load-contributor`, and a link back to `index.html`. The JSON must contain the PR author's student ID, not my ID.
 
 - Incoming partner PR: https://github.com/vistula-team-project-72546/vistula-task-manager/pull/1 — merged.
-- My outgoing PR to the partner's repository: https://github.com/EyupEnsarDemirel74062/Second-Assignment/pull/1 — open; awaiting the repository owner's review and merge.
+- My outgoing PR to the partner's repository: https://github.com/EyupEnsarDemirel74062/Second-Assignment/pull/1 — merged by EyupEnsarDemirel74062.
 
-The incoming PR is merged; the outgoing PR is awaiting Eyüp's review and merge. The assignment is not complete until both contributions are merged and the deployed application, contributor page and JSON work publicly.
+Both reciprocal Pull Requests have been merged by the receiving repository owners. My contributor page and JSON are published on GitHub Pages. Verify the partner's deployment and the remaining submission requirements before submitting.
 
 ## Manual checks before submission
 
